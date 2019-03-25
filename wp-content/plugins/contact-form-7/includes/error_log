@@ -1,0 +1,7 @@
+[25-Mar-2017 17:38:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[25-Mar-2017 17:38:42 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[30-May-2017 09:59:26 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[14-Oct-2017 14:07:56 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[27-Oct-2017 03:37:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[25-Mar-2018 22:00:25 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[25-Mar-2018 22:00:28 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3

@@ -1,0 +1,29 @@
+08-12-2015 @ 11:26:48 - Dragonpay Transaction Initiated - Dragonpay Test Account Used - Order #176
+08-13-2015 @ 12:52:13 - START CRON: Synchronization
+08-13-2015 @ 12:52:13 - Prepare request to Dragonpay: last 7 days transactions
+08-13-2015 @ 12:52:13 - Dragonpay TEST ACCOUNT used
+08-13-2015 @ 12:52:14 - Answer - content-length: 304
+08-13-2015 @ 12:52:14 - ERROR at connecting to Dragonpay Account - HTTP Status Code: 200
+08-13-2015 @ 12:52:14 - *** IMPORTANT *** you should double check Dragonpay Merchant ID and Dragonpay API password you filled at: WooCommerce ❯ Settings ❯ Checkout ❯ Dragonpay.ph
+08-13-2015 @ 12:52:14 - EXITING CRON: Synchronization
+08-14-2015 @ 13:41:08 - START CRON: Synchronization
+08-14-2015 @ 13:41:08 - Prepare request to Dragonpay: last 7 days transactions
+08-14-2015 @ 13:41:08 - Dragonpay TEST ACCOUNT used
+08-14-2015 @ 13:41:09 - Answer - content-length: 304
+08-14-2015 @ 13:41:09 - ERROR at connecting to Dragonpay Account - HTTP Status Code: 200
+08-14-2015 @ 13:41:09 - *** IMPORTANT *** you should double check Dragonpay Merchant ID and Dragonpay API password you filled at: WooCommerce ❯ Settings ❯ Checkout ❯ Dragonpay.ph
+08-14-2015 @ 13:41:09 - EXITING CRON: Synchronization
+08-15-2015 @ 16:16:47 - START CRON: Synchronization
+08-15-2015 @ 16:16:47 - Prepare request to Dragonpay: last 7 days transactions
+08-15-2015 @ 16:16:47 - Dragonpay TEST ACCOUNT used
+08-15-2015 @ 16:16:47 - Answer - content-length: 304
+08-15-2015 @ 16:16:47 - ERROR at connecting to Dragonpay Account - HTTP Status Code: 200
+08-15-2015 @ 16:16:47 - *** IMPORTANT *** you should double check Dragonpay Merchant ID and Dragonpay API password you filled at: WooCommerce ❯ Settings ❯ Checkout ❯ Dragonpay.ph
+08-15-2015 @ 16:16:47 - EXITING CRON: Synchronization
+08-16-2015 @ 13:23:12 - START CRON: Synchronization
+08-16-2015 @ 13:23:12 - Prepare request to Dragonpay: last 7 days transactions
+08-16-2015 @ 13:23:12 - Dragonpay TEST ACCOUNT used
+08-16-2015 @ 13:23:14 - Answer - content-length: 304
+08-16-2015 @ 13:23:14 - ERROR at connecting to Dragonpay Account - HTTP Status Code: 200
+08-16-2015 @ 13:23:14 - *** IMPORTANT *** you should double check Dragonpay Merchant ID and Dragonpay API password you filled at: WooCommerce ❯ Settings ❯ Checkout ❯ Dragonpay.ph
+08-16-2015 @ 13:23:14 - EXITING CRON: Synchronization

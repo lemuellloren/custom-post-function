@@ -1,0 +1,4 @@
+[01-Aug-2018 04:11:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

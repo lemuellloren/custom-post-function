@@ -1,0 +1,31 @@
+[12-Sep-2017 05:15:30 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[30-Sep-2017 22:06:20 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[06-Oct-2017 06:29:23 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[13-Oct-2017 06:17:46 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[16-Oct-2017 21:07:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[17-Oct-2017 12:07:31 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[25-Nov-2017 16:53:28 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[03-Feb-2018 17:56:31 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[03-Feb-2018 17:56:32 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Mar-2018 01:39:52 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Mar-2018 01:39:52 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Mar-2018 16:13:40 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Mar-2018 16:13:40 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[20-Mar-2018 16:39:30 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[20-Mar-2018 16:39:30 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[25-Mar-2018 06:45:05 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[25-Mar-2018 06:45:06 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[25-Mar-2018 23:03:04 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[28-Mar-2018 02:33:01 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[19-Jul-2018 13:57:42 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Jul-2018 13:57:42 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[19-Jul-2018 13:57:43 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[19-Jul-2018 13:57:43 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3
+[28-Jul-2018 11:06:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/header.php on line 5
+[28-Jul-2018 11:06:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/themes/beaufairy/index.php on line 3

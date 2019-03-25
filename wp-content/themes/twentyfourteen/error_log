@@ -1,0 +1,12 @@
+[04-Mar-2017 02:13:29 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10
+[02-Apr-2017 08:33:53 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10
+[11-Oct-2017 16:35:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10
+[17-Feb-2018 18:39:59 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10
+[30-Jul-2018 15:00:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10
+[31-Jul-2018 06:03:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfourteen/404.php on line 10

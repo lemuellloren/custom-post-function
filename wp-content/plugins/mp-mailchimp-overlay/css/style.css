@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../fonts/Lato-Light.eotaset');
+  src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Lato-Light.woff2') format('woff2'),
+       url('../fonts/Lato-Light.woff') format('woff'),
+       url('../fonts/Lato-Light.ttf') format('truetype'),
+       url('../fonts/Lato-Light.svg#Lato-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mpm-subscribe-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    z-index: 999999;
+    transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+.mpm-subscribe-overlay form .fa {
+    display: none;
+}
+
+.mpm-subscribe-overlay.active {
+    visibility: visible;
+    transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+}
+
+.mpm-subscribe-overlay .wrapper {
+    max-width: 1080px;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.mpm-subscribe-overlay #close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 999;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mpm-subscribe-overlay #close:hover {
+    text-decoration: underline;
+}
+
+.mpm-subscribe-overlay form {
+    position: relative;
+    width: 92%;
+    max-width: 320px;
+    margin: auto;
+}
+
+.mpm-subscribe-overlay .message {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 17px;
+    color: white;
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto 10px;
+}
+
+.mpm-subscribe-overlay form .hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mpm-subscribe-overlay form .field {
+  position: relative;
+  background-color: transparent;
+  margin: 17px 0;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.mpm-subscribe-overlay form .field input {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+    font-size: 14px;
+    padding: 0;
+    padding-left: 10px;
+    height: 28px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mpm-subscribe-overlay form .field textarea {
+    position: relative;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.mpm-subscribe-overlay form .field input,
+.mpm-subscribe-overlay form .field textarea {
+    outline: none;
+    color: white;
+}
+
+.mpm-subscribe-overlay form .field input:focus + label,
+.mpm-subscribe-overlay form .field textarea:focus + label {
+    opacity: 0;
+    transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+}
+
+.mpm-subscribe-overlay form .field label.field-label {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Lato-Light";
+    color: white;
+    cursor: text;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    -moz-transition: transform 0.4s ease, opacity 0.4s ease;
+    -webkit-transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.mpm-subscribe-overlay form .field label.field-label.hidden {
+    opacity: 0;
+    transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+}
+
+.mpm-subscribe-overlay form input[type="submit"],
+.mpm-subscribe-overlay form button {
+    border: none;
+    background-color: #fec136;
+    width: 100%;
+    padding: 8px;
+    font-weight: bold;
+    font-family: "Lato-Light";
+    font-size: 14px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    -moz-transition: background-color 0.4s ease, color 0.4s ease;
+    -webkit-transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.mpm-subscribe-overlay form button p {
+    color: white;
+    transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+}
+
+.mpm-subscribe-overlay form input[type="submit"]:focus,
+.mpm-subscribe-overlay form button:focus,
+.mpm-subscribe-overlay form input[type="submit"]:active,
+.mpm-subscribe-overlay form button:active {
+    outline: none;
+}
+
+.mpm-subscribe-overlay form input[type="submit"]:hover,
+.mpm-subscribe-overlay form button:hover {
+    background-color: white;
+}
+
+.mpm-subscribe-overlay form input[type="submit"]:hover p,
+.mpm-subscribe-overlay form button:hover p {
+    color: #fec136;
+}
+
+.mpm-subscribe-overlay form .spinner {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+.mpm-subscribe-overlay form.loading .spinner {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mpm-newsletter-trigger {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #F67699;
+    z-index: 999;
+    display: block;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    visibility: visible;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    animation: showUp 5s;
+    -webkit-animation: showUp 5s;
+}
+
+.mpm-newsletter-trigger:hover,
+.mpm-newsletter-trigger:hover #close {
+    background-color: white;
+}
+
+.mpm-newsletter-trigger:hover p {
+    color: #F67699;
+}
+
+.mpm-newsletter-trigger.hidden {
+    visibility: hidden;
+    transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+}
+
+.mpm-newsletter-trigger .mpm-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mpm-newsletter-trigger p {
+    margin: 0;
+    padding: 7px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}
+
+.mpm-newsletter-trigger #close {
+    padding: 0;
+    position: absolute;
+    top: 25%;
+    right: -16px;
+    font-size: 12px;
+    background: #F67699;
+    padding: 3px 5px;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+@keyframes showUp {
+    0% {
+        visibility: hidden;
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+    }
+
+    75% {
+        visibility: hidden;
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+    }
+
+    100% {
+        visibility: visible;
+        transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes showUp {
+    0% {
+        visibility: hidden;
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+    }
+
+    75% {
+        visibility: hidden;
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+    }
+
+    100% {
+        visibility: visible;
+        transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+    }
+}

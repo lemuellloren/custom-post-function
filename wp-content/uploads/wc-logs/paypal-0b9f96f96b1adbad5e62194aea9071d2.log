@@ -1,0 +1,389 @@
+12-07-2015 @ 01:04:20 - Generating payment form for order 1654. Notify URL: http://beaufairy.com/wc-api/WC_Gateway_Paypal/
+12-07-2015 @ 01:05:06 - Checking IPN response is valid
+12-07-2015 @ 01:05:08 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 910.00
+            [invoice] => WC-1654
+            [protection_eligibility] => Partially Eligible - Unauth Only
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 8HNXEDDG5FP5Y
+            [payment_date] => 17:04:52 Dec 06, 2015 PST
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Dorothy Joy
+            [mc_fee] => 50.49
+            [notify_version] => 3.8
+            [custom] => {"order_id":1654,"order_key":"wc_order_5664db13ce8e8"}
+            [payer_status] => verified
+            [business] => finance@beaufairy.com
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [verify_sign] => ANHtlbxWT-Xw6qWbUS0HYIlJHH6hAfMnK7BJAAOdbqgGASOh.wW5MvQe
+            [payer_email] => dorothyfalcon@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 6W821994PF962413B
+            [payment_type] => instant
+            [last_name] => Falcon
+            [item_name1] => Acne Cure Delight ( Pickup Location: Davao Branch, Door 2, G/F Yolanda Bldg. Sobrecarey Cor. Clarin St. Bo. Obrero, Davao Ci...
+            [receiver_email] => finance@beaufairy.com
+            [item_name2] => Tuck-Me-Not! Deo Spray ( Pickup Location: Davao Branch, Door 2, G/F Yolanda Bldg. Sobrecarey Cor. Clarin St. Bo. Obrero, Dav...
+            [payment_fee] => 
+            [shipping_discount] => 0.00
+            [quantity1] => 1
+            [insurance_amount] => 0.00
+            [quantity2] => 1
+            [receiver_id] => QSPG8LZ3TTDD2
+            [txn_type] => cart
+            [discount] => 0.00
+            [mc_gross_1] => 750.00
+            [mc_currency] => PHP
+            [mc_gross_2] => 160.00
+            [residence_country] => PH
+            [shipping_method] => Default
+            [transaction_subject] => {"order_id":1654,"order_key":"wc_order_5664db13ce8e8"}
+            [payment_gross] => 
+            [ipn_track_id] => 631810ef9fc84
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.5
+)
+
+12-07-2015 @ 01:05:08 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => e06f7b8ff66a
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => dcg12-origin-www-1.paypal.com
+            [date] => Mon, 07 Dec 2015 01:05:08 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=KnaerJWF0dsenwSI5W_jWbItHpFWawJDdzn5XGIPbFsT62mJIp30KTvudXbz90YUwGY630sSwD9tnNtOK3ZY2ANWm_kmawsgAxxeTdAMktMTBQMAiy0_cAssHS6_1GqMc6N20EL72IaFpugX3dA9nKpv0VqL-1GQd4b14QV1K9EKbL2_7ZdAesB3zR9HGLxP-k6SnVDbZ5AnCLcDgaHk2-mST1qrV2mnxYtFpwc5UIPxbiC01thdT6mBKYVtDhWzoQ6588Une9etgb70b7-KSSnivJ7FtNjmA-wSLLalAwJSxNIjG33tmQWS8D-f5TG7AqUUv4spdnU0Rpre_JECMEXfyVlT9nY2ua4_E7ksx14j2pLkYTOFA9C17Frz21kihlZvzCEyMk7Y87YyI07o7cRba3K6uVR1_v1yB2Z7sb-pCH6eSbV7ySzvZju; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Thu, 04-Dec-2025 01:05:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 06-Dec-2017 01:05:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE11.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1155228758; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => Apache=10.17.1.8.1449450308062885; path=/; expires=Wed, 29-Nov-45 01:05:08 GMT
+                    [7] => AKDC=dcg12-origin-www-1.paypal.com; expires=Mon, 07-Dec-2015 01:35:08 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => KnaerJWF0dsenwSI5W_jWbItHpFWawJDdzn5XGIPbFsT62mJIp30KTvudXbz90YUwGY630sSwD9tnNtOK3ZY2ANWm_kmawsgAxxeTdAMktMTBQMAiy0_cAssHS6_1GqMc6N20EL72IaFpugX3dA9nKpv0VqL-1GQd4b14QV1K9EKbL2_7ZdAesB3zR9HGLxP-k6SnVDbZ5AnCLcDgaHk2-mST1qrV2mnxYtFpwc5UIPxbiC01thdT6mBKYVtDhWzoQ6588Une9etgb70b7-KSSnivJ7FtNjmA-wSLLalAwJSxNIjG33tmQWS8D-f5TG7AqUUv4spdnU0Rpre_JECMEXfyVlT9nY2ua4_E7ksx14j2pLkYTOFA9C17Frz21kihlZvzCEyMk7Y87YyI07o7cRba3K6uVR1_v1yB2Z7sb-pCH6eSbV7ySzvZju
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1764810308
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1512522308
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE11.WEB.1&silo_version=880&app=appdispatcher&TIME=1155228758
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.17.1.8.1449450308062885
+                    [expires] => 2395530308
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => dcg12-origin-www-1.paypal.com
+                    [expires] => 1449452108
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+12-07-2015 @ 01:05:08 - Received valid response from PayPal
+12-07-2015 @ 01:05:08 - Found order #1654
+12-07-2015 @ 01:05:08 - Payment status: completed
+01-11-2016 @ 10:27:34 - Generating payment form for order 1732. Notify URL: https://beaufairy.com/wc-api/WC_Gateway_Paypal/
+01-11-2016 @ 10:29:35 - Checking IPN response is valid
+01-11-2016 @ 10:29:37 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 560.00
+            [invoice] => WC-1732
+            [protection_eligibility] => Partially Eligible - Unauth Only
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 8HNXEDDG5FP5Y
+            [payment_date] => 02:29:14 Jan 11, 2016 PST
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Dorothy Joy
+            [mc_fee] => 36.84
+            [notify_version] => 3.8
+            [custom] => {"order_id":1732,"order_key":"wc_order_56938395c4457"}
+            [payer_status] => verified
+            [business] => finance@beaufairy.com
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [verify_sign] => A3BOFSbyvbTX2iDntjSgeMaWbtZsAWs.4UeHK.qjWZWWoncAnDoL.F-v
+            [payer_email] => dorothyfalcon@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 9WN60267AN331752H
+            [payment_type] => instant
+            [last_name] => Falcon
+            [item_name1] => Tuck-Me-Not! Deo Spray ( Pickup Location: Davao Branch, Door 2, G/F Yolanda Bldg. Sobrecarey Cor. Clarin St. Bo. Obrero, Dav...
+            [receiver_email] => finance@beaufairy.com
+            [item_name2] => Acne Mild Kit Solution  (SaveP100) ( Pickup Location: Davao Branch, Door 2, G/F Yolanda Bldg. Sobrecarey Cor. Clarin St. Bo....
+            [payment_fee] => 
+            [shipping_discount] => 0.00
+            [quantity1] => 1
+            [insurance_amount] => 0.00
+            [quantity2] => 1
+            [receiver_id] => QSPG8LZ3TTDD2
+            [txn_type] => cart
+            [discount] => 0.00
+            [mc_gross_1] => 160.00
+            [mc_currency] => PHP
+            [mc_gross_2] => 400.00
+            [residence_country] => PH
+            [shipping_method] => Default
+            [transaction_subject] => {"order_id":1732,"order_key":"wc_order_56938395c4457"}
+            [payment_gross] => 
+            [ipn_track_id] => cbda7ec6e84a
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.12
+)
+
+01-11-2016 @ 10:29:37 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [paypal-debug-id] => 5900d9bc6f782
+            [content-type] => text/html; charset=UTF-8
+            [dc] => slc-b-origin-www-1.paypal.com
+            [date] => Mon, 11 Jan 2016 10:29:37 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=8hn-6Sijhb5PvESaZMjWTrRYRLbRHWnkCEZz-a7zYb9SJcSKSHEWvJArUFz7Ve9S13ebcdFFNAX36b3jybm9DgZ1FXfyyF7M3JSsmFkHoNNz0OkbIXMpeuCHmJxccyiSXyNWUVAsxH2gSwsrHUxf4ahlD0-Ck39wb0OaqSlQIIVfykqU7HM3bf3A-kGWwC3gbEBf6jcQ_6EsX2SqYU1Y_qoAlegrQ9ZiTM2QaL1tshc1zdnSQ1a70abhvr6XXzEwiShcWtdD1Ev_cxZfvZdynsmf8C6bL1QcLX1xtkFLYKS_c30ViLAa75ZDr2hr_7KV1gA9j5E_CWT7kuwYle3P-_Jv_P5y5mmlcRyGHIGDDHJirEASJNoLx7-AgJWi2n-JeNMfTrTC0CcNJxfJJ7W1lXEfh5pk2FtbJBTZjCbHx2-U4OVVQNy1CplZHoa; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Thu, 08-Jan-2026 10:29:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 10-Jan-2018 10:29:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D293901142; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => AKDC=slc-b-origin-www-1.paypal.com; expires=Mon, 11-Jan-2016 10:59:37 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => 8hn-6Sijhb5PvESaZMjWTrRYRLbRHWnkCEZz-a7zYb9SJcSKSHEWvJArUFz7Ve9S13ebcdFFNAX36b3jybm9DgZ1FXfyyF7M3JSsmFkHoNNz0OkbIXMpeuCHmJxccyiSXyNWUVAsxH2gSwsrHUxf4ahlD0-Ck39wb0OaqSlQIIVfykqU7HM3bf3A-kGWwC3gbEBf6jcQ_6EsX2SqYU1Y_qoAlegrQ9ZiTM2QaL1tshc1zdnSQ1a70abhvr6XXzEwiShcWtdD1Ev_cxZfvZdynsmf8C6bL1QcLX1xtkFLYKS_c30ViLAa75ZDr2hr_7KV1gA9j5E_CWT7kuwYle3P-_Jv_P5y5mmlcRyGHIGDDHJirEASJNoLx7-AgJWi2n-JeNMfTrTC0CcNJxfJJ7W1lXEfh5pk2FtbJBTZjCbHx2-U4OVVQNy1CplZHoa
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1767868177
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1515580177
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE6.WEB.1&silo_version=880&app=appdispatcher&TIME=293901142
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => slc-b-origin-www-1.paypal.com
+                    [expires] => 1452509977
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+01-11-2016 @ 10:29:37 - Received valid response from PayPal
+01-11-2016 @ 10:29:37 - Found order #1732
+01-11-2016 @ 10:29:37 - Payment status: completed
+04-29-2016 @ 02:03:33 - Generating payment form for order 2051. Notify URL: https://beaufairy.com/wc-api/WC_Gateway_Paypal/

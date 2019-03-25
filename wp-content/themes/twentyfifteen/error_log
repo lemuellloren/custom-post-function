@@ -1,0 +1,15 @@
+[03-Mar-2017 14:54:02 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10
+[03-Mar-2017 21:00:32 America/Denver] PHP Notice:  Undefined index: wp_version in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/functions.php on line 40
+[03-Mar-2017 21:00:32 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory() in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/functions.php on line 41
+[01-Apr-2017 22:58:57 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10
+[28-Oct-2017 06:47:44 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/index.php on line 17
+[29-Oct-2017 15:49:26 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/content.php on line 13
+[07-Dec-2017 15:45:54 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10
+[19-Jan-2018 15:17:14 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10
+[19-Mar-2018 10:09:16 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10
+[27-Jun-2018 18:49:08 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/content.php on line 13
+[28-Jun-2018 00:03:04 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/content-link.php on line 13
+[05-Aug-2018 02:32:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/redtagtr/public_html/beaufairy/wp-content/themes/twentyfifteen/404.php on line 10

@@ -1,0 +1,1 @@
+[31-Dec-2016 09:41:36 America/Denver] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home1/redtagtr/public_html/beaufairy/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

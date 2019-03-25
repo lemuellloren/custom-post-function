@@ -1,0 +1,47 @@
+/* Book now Snippet CSS */
+.book-now-snippet {
+    height: 116px;
+    background-color: #fabdbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-now-left-text {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.book-now-row {
+    display: flex;
+    align-items: center;
+}
+
+.booknow-btn {
+    padding: 7px 50px;
+    background-color: #f67699;
+    color: #ffff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.booknow-btn:hover {
+    background: #fff;
+    border-color: #F67699;
+    color: #F67699;
+    text-decoration: none;
+}
+/* Book now Snippet CSS */
+
+/* acuityscheduling styles */
+#acuity-footer {
+    display: none !important;
+}
+/* acuityscheduling styles */
